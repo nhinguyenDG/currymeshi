@@ -1,0 +1,183 @@
+.h1803_footer_pc *,
+.h1803_footer_pc *::before,
+.h1803_footer_pc *::after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+       -o-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.h1803_footer_pc {
+  background: #000;
+}
+.h1803_footer_pc .h1803_footer_inner {
+  font-family: "Helvetica Neue",Helvetica,Arial,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+  -webkit-tap-highlight-color: rgba(0,0,0,.5);
+  max-width: 1148px;
+  margin: 0 auto;
+  padding: 0 20px 10px;
+  color: #fff;
+  font-size: 12px;
+  line-height: 1.6;
+  overflow: hidden;
+}
+
+.h1803_footer_pc a {
+  color: red;
+  text-decoration: none;
+}
+
+.h1803_footer_pc p,
+.h1803_footer_pc img,
+.h1803_footer_pc ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+}
+.h1803_footer_pc ul {
+  list-style: none;
+  overflow: hidden;
+}
+.h1803_footer_pc .h1803_footer_brandSite_list {
+  margin: 50px auto;
+}
+.h1803_footer_pc .h1803_footer_brandSite_list li {
+  display: table-cell;
+  vertical-align: top;
+  width: 188px;
+  font-size: 14px;
+  padding-left: 21px;
+}
+.h1803_footer_pc .h1803_footer_brandSite_list li:first-child {
+  padding-left: 0;
+}
+.h1803_footer_pc .h1803_footer_brandSite_list li a {
+  display: block;
+  transition: all 0.1s;
+}
+.h1803_footer_pc .h1803_footer_brandSite_list li a:hover {
+  text-decoration: underline;
+  opacity: 0.7;
+}
+.h1803_footer_pc .h1803_footer_bs_list_img {
+  background: #fff;
+  text-align: center;
+  border: 1px solid #e7e7e7;
+  width: 167px;
+  height: 83px;
+  display: table-cell;
+  vertical-align: middle;
+}
+.h1803_footer_pc .h1803_footer_bs_list_img img {
+  vertical-align: middle;
+  width: 100%;
+  max-width: 137px;
+}
+.h1803_footer_pc .h1803_footer_bs_list_text {
+  margin-top: 5px;
+  display: block;
+}
+.h1803_footer_pc .h1803_footer_info {
+  overflow: hidden;
+}
+.h1803_footer_pc .h1803_footer_logo {
+  width: 126px;
+  display: table-cell;
+  vertical-align: top;
+  padding-right: 30px;
+  padding-top: 10px;
+}
+.h1803_footer_pc .h1803_footer_logo img {
+  width: 100%;
+}
+
+.h1803_footer_pc .h1803_footer_info_cont {
+  display: table-cell;
+}
+.h1803_footer_pc .h1803_footer_info_shoplink li {
+  display: table-cell;
+  padding-right: 34px;
+  padding-left: 34px;
+  position: relative;
+}
+.h1803_footer_pc .h1803_footer_info_shoplink li::before {
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 37px;
+  background: #7d7d7d;
+  position: absolute;
+  left: 0;
+  top: 4px;
+}
+.h1803_footer_pc .h1803_footer_info_shoplink li:first-child {
+  padding-left: 0;
+}
+.h1803_footer_pc .h1803_footer_info_shoplink li:first-child::before {
+  content: none;
+}
+.h1803_footer_pc .h1803_footer_info_shoplink li a {
+  transition: all .1s;
+}
+.h1803_footer_pc .h1803_footer_info_shoplink li a:hover {
+  opacity: 0.7;
+}
+.h1803_footer_pc .h1803_footer_info_shoplink li img {
+  max-width: 220px;
+  width: 100%;
+  vertical-align: middle;
+}
+.h1803_footer_pc .h1803_footer_info_sitelink {
+  margin: 15px 0 20px;
+}
+.h1803_footer_pc .h1803_footer_info_sitelink li {
+  float: left;
+  border-left: 1px solid #ff1212;
+  margin-left: 12px;
+  padding-left: 12px;
+  line-height: 1.2;
+}
+.h1803_footer_pc .h1803_footer_info_sitelink li:first-child {
+  border-left: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+.h1803_footer_pc .h1803_footer_info_sitelink li a:hover {
+  text-decoration: underline;
+}
+.h1803_footer_pc .h1803_footer_copyright {
+  letter-spacing: 0.05em;
+}
+
+.h1803_footer_pc .footer_att {
+margin: 10px auto;
+color: #FFF68F;
+}
+
+.h1803_footer_pc .bp {
+  display: none;
+}
+
+
+
+@media screen and (min-width: 769px) and (max-width: 950px) {
+  .h1803_footer_pc .h1803_footer_brandSite_list {
+    margin: 40px auto;
+  }
+  .h1803_footer_pc .h1803_footer_logo,
+  .h1803_footer_pc .h1803_footer_logo img {
+    width: 100px;
+  }
+  .h1803_footer_pc .h1803_footer_brandSite_list li {
+    font-size: 13px;
+  }
+  .h1803_footer_pc .h1803_footer_info_shoplink li {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .h1803_footer_pc .bp {
+    display: block;
+  }
+}
